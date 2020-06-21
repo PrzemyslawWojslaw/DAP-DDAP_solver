@@ -1,0 +1,42 @@
+
+==============================
+   2020-06-18
+   Evolutionary algorithm DAP
+[11:35:57] INFO >> Starting evolutionary algorithm DAP with parameters:
+  - Seed: None
+  - Initial population size: 10
+  - Number of offsprings: 2
+  - Crossover probability: 0.1
+  - Mutation probability: 0.1
+  - Stop criterion: time (after 3 s)
+
+[11:35:57] INFO >> Initialized population. Objective values (DAP): 9 10 10 11 12 13 13 13 16 18
+[11:36:00] INFO >> SUCCESS
+[11:36:00] INFO >> Best solution objective value (DAP): 7
+Final population objective values (DAP): 7 7 7 7 7 7 7 7 7 7
+                   Time: 3.0001516342163086 s
+  Number of generations: 4195
+   Number of crossovers: 459
+    Number of mutations: 869
+
+[11:36:00] INFO >> Best solution saved in file: output/net4/evolutionary_DAP_best.txt
+
+==============================
+
+==============================
+   2020-06-18
+   Brute force algorithm for DAP and DDAP
+[11:37:00] INFO >> Starting brute force solving. It may take a while...
+[11:37:19] INFO >> SUCCESS
+[11:37:19] INFO >> Best solutions: 
+     a) DAP - ID:549000, objecive value: 6
+     a) DDAP - ID:806400, objecive value: 13
+
+                   Time: 19.61578631401062 s
+    Number of solutions: 810000
+
+[11:37:19] INFO >> Best solutions saved in files:
+   output/net4/brute_force_DAP_best.txt
+   output/net4/brute_force_DDAP_best.txt
+
+==============================

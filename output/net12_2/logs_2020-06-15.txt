@@ -1,0 +1,48 @@
+
+==============================
+   2020-06-15
+   Evolutionary algorithm DAP
+[15:36:04] INFO >> Starting evolutionary algorithm DAP with parameters:
+  - Seed: None
+  - Initial population size: 10
+  - Number of offsprings: 2
+  - Crossover probability: 0.1
+  - Mutation probability: 0.1
+  - Stop criterion: time (after 3 s)
+
+[15:36:05] INFO >> Initialized population. Objective values (DAP): 343 344 347 356 363 372 376 386 396 400
+[15:36:07] INFO >> SUCCESS
+[15:36:07] INFO >> Best solution objective value (DAP): 334
+Final population objective values (DAP): 334 334 334 334 334 334 334 334 334 334
+                   Time: 3.0002264976501465 s
+  Number of generations: 282
+   Number of crossovers: 28
+    Number of mutations: 57
+
+[15:36:07] INFO >> Best solution saved in file: output/net12_2/evolutionary_DAP_best.txt
+
+==============================
+
+==============================
+   2020-06-15
+   Evolutionary algorithm DDAP
+[15:36:22] INFO >> Starting evolutionary algorithm DDAP with parameters:
+  - Seed: None
+  - Initial population size: 10
+  - Number of offsprings: 2
+  - Crossover probability: 0.1
+  - Mutation probability: 0.1
+  - Stop criterion: time (after 3 s)
+
+[15:36:23] INFO >> Initialized population. Objective values (DDAP): 49 49 50 51 51 51 52 52 52 52
+[15:36:25] INFO >> SUCCESS
+[15:36:25] INFO >> Best solution objective value (DDAP): 48
+Final population objective values (DDAP): 48 48 48 48 48 48 48 48 48 48
+                   Time: 3.001828670501709 s
+  Number of generations: 256
+   Number of crossovers: 27
+    Number of mutations: 47
+
+[15:36:25] INFO >> Best solution saved in file: output/net12_2/evolutionary_DDAP_best.txt
+
+==============================

@@ -1,0 +1,66 @@
+
+==============================
+   2020-06-15
+   Brute force algorithm for DAP and DDAP
+[20:17:53] INFO >> Starting brute force solving. It may take a while...
+[20:18:16] INFO >> SUCCESS
+[20:18:16] INFO >> Best solutions: 
+     a) DAP - ID:549000, objecive value: 6
+     a) DDAP - ID:806400, objecive value: 13
+
+                   Time: 22.168846607208252 s
+    Number of solutions: 810000
+
+[20:18:16] INFO >> Best solutions saved in files:
+   output/net4/brute_force_DAP_best.txt
+   output/net4/brute_force_DDAP_best.txt
+
+==============================
+
+==============================
+   2020-06-15
+   Evolutionary algorithm DAP
+[20:18:29] INFO >> Starting evolutionary algorithm DAP with parameters:
+  - Seed: None
+  - Initial population size: 10
+  - Number of offsprings: 2
+  - Crossover probability: 0.1
+  - Mutation probability: 0.1
+  - Stop criterion: time (after 3 s)
+
+[20:18:29] INFO >> Initialized population. Objective values (DAP): 9 10 10 11 11 12 12 13 14 15
+[20:18:32] INFO >> SUCCESS
+[20:18:32] INFO >> Best solution objective value (DAP): 8
+Final population objective values (DAP): 8 8 8 8 8 8 8 8 8 8
+                   Time: 3.00026273727417 s
+  Number of generations: 4168
+   Number of crossovers: 408
+    Number of mutations: 809
+
+[20:18:32] INFO >> Best solution saved in file: output/net4/evolutionary_DAP_best.txt
+
+==============================
+
+==============================
+   2020-06-15
+   Evolutionary algorithm DDAP
+[20:18:37] INFO >> Starting evolutionary algorithm DDAP with parameters:
+  - Seed: None
+  - Initial population size: 10
+  - Number of offsprings: 2
+  - Crossover probability: 0.1
+  - Mutation probability: 0.1
+  - Stop criterion: time (after 3 s)
+
+[20:18:37] INFO >> Initialized population. Objective values (DDAP): 18 19 21 22 22 22 22 23 24 26
+[20:18:40] INFO >> SUCCESS
+[20:18:40] INFO >> Best solution objective value (DDAP): 16
+Final population objective values (DDAP): 16 16 16 16 16 16 16 16 16 16
+                   Time: 3.0004868507385254 s
+  Number of generations: 4109
+   Number of crossovers: 426
+    Number of mutations: 801
+
+[20:18:40] INFO >> Best solution saved in file: output/net4/evolutionary_DDAP_best.txt
+
+==============================

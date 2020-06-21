@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>OAST</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuStart">
+    <property name="title">
+     <string>Start</string>
+    </property>
+    <addaction name="actionBrute"/>
+    <addaction name="actionEvoDAP"/>
+    <addaction name="actionEvoDDAP"/>
+   </widget>
+   <widget class="QMenu" name="menuSave">
+    <property name="title">
+     <string>Save</string>
+    </property>
+    <addaction name="actionSaveBrute"/>
+    <addaction name="actionSaveEvoDAP"/>
+    <addaction name="actionSaveEvoDDAP"/>
+   </widget>
+   <addaction name="menuStart"/>
+   <addaction name="menuSave"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionBrute">
+   <property name="text">
+    <string>Brute force (DAP and DDAP)</string>
+   </property>
+  </action>
+  <action name="actionEvoDAP">
+   <property name="text">
+    <string>Evolutionary algorithm (DAP)</string>
+   </property>
+  </action>
+  <action name="actionAboutNetwork">
+   <property name="text">
+    <string>About network</string>
+   </property>
+  </action>
+  <action name="action">
+   <property name="text">
+    <string>About algorithms</string>
+   </property>
+  </action>
+  <action name="actionAboutAuthors">
+   <property name="text">
+    <string>About authors</string>
+   </property>
+  </action>
+  <action name="actionEvoDDAP">
+   <property name="text">
+    <string>Evolutionary algorithm (DDAP)</string>
+   </property>
+  </action>
+  <action name="actionSaveBrute">
+   <property name="text">
+    <string>Brute force solution</string>
+   </property>
+  </action>
+  <action name="actionSaveEvoDAP">
+   <property name="text">
+    <string>Evolutionary DAP solution</string>
+   </property>
+  </action>
+  <action name="actionSaveEvoDDAP">
+   <property name="text">
+    <string>Evolutionary DDAP solution</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
